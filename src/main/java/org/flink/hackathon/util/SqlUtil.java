@@ -1,7 +1,6 @@
 package org.flink.hackathon.util;
 
 /**
- * @author chenrui.a@mininglamp.com
  * @project flink-hackathon
  * @date 2022/01/04
  */

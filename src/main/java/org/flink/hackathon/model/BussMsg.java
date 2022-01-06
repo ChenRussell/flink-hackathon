@@ -3,7 +3,6 @@ package org.flink.hackathon.model;
 import lombok.Data;
 
 /**
- * @author chenrui.a@mininglamp.com
  * @project flink-hackathon
  * @date 2022/01/04
  */
