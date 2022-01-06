@@ -24,7 +24,7 @@ public class FlinkHackathonKafka2Mysql {
                 ") WITH (\n" +
                 "  'connector' = 'kafka',\n" +
                 "  'topic' = 'flink-hackathon-business-data',\n" +
-                "  'properties.bootstrap.servers' = '47.104.176.73:9092',\n" +
+                "  'properties.bootstrap.servers' = '***',\n" +
                 "  'properties.group.id' = 'hackathon-20220103-flink222',\n" +
                 "  'format' = 'json',\n" +
                 "  'scan.startup.mode' = 'latest-offset'\n" +
@@ -36,9 +36,9 @@ public class FlinkHackathonKafka2Mysql {
                 " PRIMARY KEY (CUST_ID) NOT ENFORCED "+
                 ") WITH (\n" +
                 "  'connector' = 'jdbc',\n" +
-                "   'url' = 'jdbc:mysql://47.104.176.73:3306/bank?charset=utf8',\n" +
-                "   'username' = 'superset',\n" +
-                "   'password' = '123456',\n" +
+                "   'url' = 'jdbc:mysql://***/bank?charset=utf8',\n" +
+                "   'username' = '***',\n" +
+                "   'password' = '***',\n" +
                 "   'driver' = 'com.mysql.cj.jdbc.Driver',\n" +
                 "   'lookup.cache.ttl' = '6s',\n" +
                 "   'sink.buffer-flush.interval' = '2s',\n" +
@@ -59,9 +59,9 @@ public class FlinkHackathonKafka2Mysql {
                 " PRIMARY KEY (customId) NOT ENFORCED "+
                 ") WITH (\n" +
                 "   'connector' = 'jdbc',\n" +
-                "   'url' = 'jdbc:mysql://47.104.176.73:3306/bank?charset=utf8',\n" +
-                "   'username' = 'superset',\n" +
-                "   'password' = '123456',\n" +
+                "   'url' = 'jdbc:mysql://***/bank?charset=utf8',\n" +
+                "   'username' = '***',\n" +
+                "   'password' = '***',\n" +
                 "   'driver' = 'com.mysql.cj.jdbc.Driver',\n" +
                 "   'table-name' = 'BUSS_cr'\n" +
                 ")";

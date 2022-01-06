@@ -20,9 +20,9 @@ public class SqlUtil {
                 " PRIMARY KEY (customId) NOT ENFORCED " +
                 ") WITH (\n" +
                 "   'connector' = 'jdbc',\n" +
-                "   'url' = 'jdbc:mysql://47.104.176.73:3306/bank?charset=utf8',\n" +
-                "   'username' = 'superset',\n" +
-                "   'password' = '123456',\n" +
+                "   'url' = 'jdbc:mysql://***/bank?charset=utf8',\n" +
+                "   'username' = '***',\n" +
+                "   'password' = '***',\n" +
                 "   'driver' = 'com.mysql.cj.jdbc.Driver',\n" +
                 "   'table-name' = 'BUSS_cr'\n" +
                 ")";
@@ -46,9 +46,9 @@ public class SqlUtil {
                 " PRIMARY KEY (CUST_ID) NOT ENFORCED " +
                 ") WITH (\n" +
                 "   'connector' = 'jdbc',\n" +
-                "   'url' = 'jdbc:mysql://47.104.176.73:3306/bank?charset=utf8',\n" +
-                "   'username' = 'superset',\n" +
-                "   'password' = '123456',\n" +
+                "   'url' = 'jdbc:mysql://***/bank?charset=utf8',\n" +
+                "   'username' = '***',\n" +
+                "   'password' = '***',\n" +
                 "   'driver' = 'com.mysql.cj.jdbc.Driver',\n" +
                 "   'table-name' = 'S_BUSS'\n" +
                 ")";
@@ -61,9 +61,9 @@ public class SqlUtil {
                 " PRIMARY KEY (MANAGER_ID) NOT ENFORCED "+
                 ") WITH (\n" +
                 "  'connector' = 'jdbc',\n" +
-                "   'url' = 'jdbc:mysql://47.104.176.73:3306/bank?charset=utf8',\n" +
-                "   'username' = 'superset',\n" +
-                "   'password' = '123456',\n" +
+                "   'url' = 'jdbc:mysql://***/bank?charset=utf8',\n" +
+                "   'username' = '***',\n" +
+                "   'password' = '***',\n" +
                 "   'driver' = 'com.mysql.cj.jdbc.Driver',\n" +
                 "   'lookup.cache.ttl' = '6s',\n" +
                 "   'sink.buffer-flush.interval' = '2s',\n" +
@@ -81,9 +81,9 @@ public class SqlUtil {
                 " PRIMARY KEY (INS_ID) NOT ENFORCED "+
                 ") WITH (\n" +
                 "  'connector' = 'jdbc',\n" +
-                "   'url' = 'jdbc:mysql://47.104.176.73:3306/bank?charset=utf8',\n" +
-                "   'username' = 'superset',\n" +
-                "   'password' = '123456',\n" +
+                "   'url' = 'jdbc:mysql://***/bank?charset=utf8',\n" +
+                "   'username' = '***',\n" +
+                "   'password' = '***',\n" +
                 "   'driver' = 'com.mysql.cj.jdbc.Driver',\n" +
                 "   'lookup.cache.ttl' = '6s',\n" +
                 "   'sink.buffer-flush.interval' = '2s',\n" +
@@ -98,9 +98,9 @@ public class SqlUtil {
                 " PRIMARY KEY (CUST_ID) NOT ENFORCED " +
                 ") WITH (\n" +
                 "  'connector' = 'jdbc',\n" +
-                "   'url' = 'jdbc:mysql://47.104.176.73:3306/bank?charset=utf8',\n" +
-                "   'username' = 'superset',\n" +
-                "   'password' = '123456',\n" +
+                "   'url' = 'jdbc:mysql://***/bank?charset=utf8',\n" +
+                "   'username' = '***',\n" +
+                "   'password' = '***',\n" +
                 "   'driver' = 'com.mysql.cj.jdbc.Driver',\n" +
                 "   'lookup.cache.ttl' = '6s',\n" +
                 "   'sink.buffer-flush.interval' = '2s',\n" +

@@ -29,7 +29,7 @@ public class FlinkHackathonKafka2MysqlV2 {
         EnvironmentSettings bsSettings = EnvironmentSettings.newInstance().useBlinkPlanner().inStreamingMode().build();
         StreamTableEnvironment tableEnv = StreamTableEnvironment.create(env, bsSettings);
         KafkaSource<String> source = KafkaSource.<String>builder()
-                .setBootstrapServers("47.104.176.73:9092")
+                .setBootstrapServers("***")
                 .setTopics("flink-hackathon-business-data")
                 .setGroupId("hackathon-20220104-flink")
                 .setStartingOffsets(OffsetsInitializer.latest())
